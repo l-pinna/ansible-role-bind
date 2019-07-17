@@ -57,6 +57,9 @@ bind_statistics_allow:
 bind_dnssec_enable: true
 bind_dnssec_validation: true
 
+# Will only add records to the authority and additional data sections when they are required
+bind_minimal_responses: true
+
 bind_extra_include_files: []
 
 # SOA information

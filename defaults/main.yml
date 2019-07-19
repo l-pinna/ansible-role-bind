@@ -53,6 +53,12 @@ bind_statistics_host: 127.0.0.1
 bind_statistics_allow:
   - "127.0.0.1"
 
+# Enable geoip module
+bind_geoip_enabled: false
+
+# Geoip directory 
+bind_geoip_directory: "/usr/share/GeoIP/"
+
 # DNSSEC configuration
 bind_dnssec_enable: true
 bind_dnssec_validation: true

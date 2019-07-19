@@ -58,6 +58,7 @@ bind_geoip_enabled: false
 
 # Geoip directory 
 bind_geoip_directory: "/usr/share/GeoIP/"
+
 # DNSSEC configuration
 bind_dnssec_enable: true
 bind_dnssec_validation: true
